@@ -1,0 +1,30 @@
+h1 {
+    text-align: center;
+}
+
+
+
+
+
+
+
+th {
+    background-color: aliceblue;
+}
+tr:nth-child(evn){
+    background-color: aquamarine;
+}
+td,th {
+    padding: 15px;
+}
+table{
+    border-collapse: collapse;
+}
+tfoot td > tr {
+    border-top: 1px solid lightgreen;
+}
+td {
+    background-color: aliceblue;
+}
+
+
