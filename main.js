@@ -40,59 +40,17 @@ dotButton.onclick = () => {
     input.value += '.'
 
 };
-const plusButton = document.getElementById('plus-button');
 let num = null;
 let op = null;
-if (num = null) {
+const plusButton = document.getElementById('plus-button');
+plusButton.onclick = () => {
+    if (num == null) {
+        op = '+';
+        console.log('+');
+        return;
 
-    op = '+';
-    console.log('+');
-
-
-
-}
-
-
-
-const minusButton = document.getElementById('minus-button');
-minusButton.onclick = () => {
-    const n = input.value.length;
-    for (var i = 0; i < n; i++) {
-        if (input.value[i] === '-') {
-            return;
-        }
     }
-    input.value += '-'
 };
-const divisionButton = document.getElementById('division-button');
-divisionButton.onclick = () => {
-    const n = input.value.length;
-    for (var i = 0; i < n; i++) {
-        if (input.value[i] === '/') {
-            return;
-        }
-    }
-    input.value += '/'
-};
-const multiplicationButton = document.getElementById('multiplication-button');
-multiplicationButton.onclick = () => {
-    const n = input.value.length;
-    for (var i = 0; i < n; i++) {
-        if (input.value [i] === '*') {
-            return;
-        }
-    }
-    input.value += '*'
-};
-const equallyButton = document.getElementById('equally-button');
-equallyButton.onclick = () => {
-    const n = input.value.length;
-    for (var i = 0; i < n; i++) {
-        if (input.value [i] === '=') {
-            return;
-        }
-    }
-    input.value += '='
-};
+
 
 
